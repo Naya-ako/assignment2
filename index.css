@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* body{
+   font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+} */
+header{
+    background-image: url(images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 0 50px;
+    width: 98.7vw;
+    height: 100vh;
+font-family: 'Poppins', sans-serif;
+/* font-family: 'Raleway', sans-serif; ; */
+/* margin-left: auto; */
+}
+.build{
+    margin: auto;
+}
+.buildh{
+    margin: auto;
+}
+.headerR{
+display: flex;
+flex-direction: column;
+align-items: end;
+margin: auto;
+}
+.headerR button{
+   margin-top: 55px;
+   margin-bottom: 15px;
+   background-color:  white;
+   border-radius: 15px;
+   width: 160px;
+   height: 45px;
+   border: 0px ;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   font-family:'Poppins', sans-serif ;
+   color:hsl(192, 100%, 9%) ;
+   font-weight: 700;
+}
+.logo{
+    width:180px ;
+    height:30px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.mock{
+    height: 420px;
+    width: 100%;
+  margin-top: 10px;
+ 
+}
+.grow{
+    font-family: 'Open Sans', sans-serif;
+    margin: 140px 66px 45px;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   height: 395px;
+   padding: 0px 20px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   border-radius: 10px;
+}
+.growl{
+    width: 500px;
+    margin: 120px 0px;
+    margin-left: 70px;
+    font-size: 16px;
+    line-height: 25px;
+   color:hsl(208, 11%, 55%);
+    
+
+}
+.growimg{
+    height: 310px;
+    width: 380px;
+    margin:40px 0px;
+    margin-left: 115px;
+}
+.flow{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px 66px 45px;
+    display: flex;
+   height: 395px;
+   padding: 0px 20px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   border-radius: 10px;
+   align-items: center;
+   justify-content: space-between;
+}
+.flowr{
+    width: 480px;
+    margin: 120px 0px;
+    margin-left: 10px;
+    font-size: 16px; 
+    line-height: 25px;
+    color: hsl(208, 11%, 55%);
+    
+
+}
+.flowimg{
+    height: 290px;
+    width: 350px;
+    margin:40px 40px;
+    
+}
+.your{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px 66px 0px;
+    display: flex;
+   height: 395px;
+   padding: 0px 20px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   border-radius: 10px;
+   margin-bottom: 50px;
+   align-items: center;
+   justify-content: space-between;
+}
+.yourl{
+    width: 500px;
+    margin: 120px 0px;
+    margin-left: 90px;
+    font-size: 16px;
+    line-height: 25px;
+    color: hsl(208, 11%, 55%);
+    
+    
+
+}
+.yourimg{
+    height: 310px;
+    width: 380px;
+    margin:40px 0px;
+    margin-left: 100px;
+}
+.ready{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 700px;
+    /* border: 1px solid black; */
+    /* margin: auto; */
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* margin-top: 12%; */
+    /* margin: 0px 500px; */
+    /* justify-self: center;
+    align-self: center; */
+   z-index:9 ;
+   position: relative;
+   top: 120px;
+   left: 300px;
+   /* margin: 0px 300px; */
+   /* left: 270px; */
+   /* margin-left: auto;
+   margin-right: auto;
+width: 50%;
+align-self: center; */
+/* margin: 0px ; */ 
+}
+.subtopic{
+    font-size: 25px; 
+    margin-bottom: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%)
+}
+
+footer{
+    font-family: 'Open Sans', sans-serif;
+    background-color:hsl(192, 100%, 9%) ;
+    /* background-color:hsl(192, 48%, 76%) ; */
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0% 5%;
+    padding-top: 13%;
+    border: 1px solid black;
+}
+.lorem{
+    width: 300px;
+    color: white;
+/* border: 1px solid black; */
+align-self: flex-start;
+margin-bottom: 3%;
+padding-left: 3%;
+}
+.loremm{
+    display: flex; 
+    align-items: start; 
+justify-content: space-evenly;
+}
+.iconsdown{
+    margin-right: 3%;
+}
+
+.list1,.list2, .brand,a{
+    list-style-type: none;
+    justify-content: space-between;
+    text-decoration: none;
+    color: hsl(208, 11%, 55%);;
+}
+.bottomlist{
+    margin:17% 0;
+}
+    
+.brand{
+    display: flex;
+}
+.brand img{
+    border: 1.5px solid hsl(208, 11%, 55%);
+    padding: 5px;
+   margin: 5px;
+   width:26px;
+   height:26px;
+  border-radius: 13px;
+}
+
+
+.words{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: hsl(208, 11%, 55%);
+    /* border: 1px solid black; */
+    height: 51%;
+    padding: 0 5%;
+    font-size: 14px;
+}
+.locate{
+    display: flex;
+    width: 35%; 
+    height: max-content;
+}
+/* .icons,.iconsl{
+    margin-right: 20px;
+}
+.iconsl{
+    margin-bottom: 20px;
+} */
+.insta{
+    color:  hsl(208, 11%, 55%);
+}
+
+@media screen and (max-width:576px) {
+  .grow,.flow,.your{
+    flex-direction: column-reverse;
+    height: 450px;
+    padding: unset;
+
+    /* margin-left: 30px;
+    margin-right: 30px; */
+    /* margin: 50px 50px; */
+    margin: unset;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+
+  }
+.growl,
+.flowr,
+.yourl{
+    width: unset;
+    width: 75%;
+    padding: unset;
+    margin: unset;
+    height: 65%;
+    line-height: 18px;
+    font-size: 12px;
+    font-weight: 10;
+    margin-top: 50px;
+    text-align: center;
+    
+    
+   
+}
+.growimg,.flowimg,.yourimg{
+    align-items: center;
+    width: 80%;
+    margin: unset;
+    height: 50%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+
+}
+.flow{
+    flex-direction: column;
+}
+
+/* growl{
+    margin-top: 20px;
+    width: 50%;
+    height: 60%;
+
+} */
+.growl{
+    font-weight: lighter;
+}
+.subtopic{
+    font-size: 18px;
+   height: 30px;
+   
+}
+footer{
+    color: white;
+    height: 1000px;
+    flex-direction: column;
+   
+}
+.words{
+    flex-direction: column;
+    justify-content: unset;
+
+}
+
+.bottomlist{
+    margin: unset;
+}
+.list1{
+    margin-top: 20px;
+}
+.lorem{
+    margin-top: 80px;
+    gap: 30px;
+}
+.down{
+    line-height: 40px;
+    font-size: 20px;
+}
+.locate{
+    width: 300px;
+    font-size: 20px;
+}
+}
