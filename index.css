@@ -24,8 +24,33 @@ font-family: 'Poppins', sans-serif;
 .build{
     margin: auto;
 }
+.build h3{
+    line-height: 60px; 
+    font-size: 40px; 
+    color: hsl(192, 100%, 9%);
+     font-weight: bolder;
+      margin:25px 0px ;
+}
 .buildh{
     margin: auto;
+
+}
+.buildh button{
+     font-weight: 700;
+      box-shadow: 0px 5px 5px 0px rgba(158,152,152,0.51);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(158,152,152,0.51);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(158,152,152,0.51);
+     margin: 30px 0px;
+      color: white; 
+      background-color: hsl(322, 100%, 66%);
+       border: 0px; 
+       width: 230px;
+        height: 50px; 
+    border-radius: 20px;
+}
+.build p{
+    line-height: 25px;
+     color: hsl(208, 11%, 55%);
 }
 .headerR{
 display: flex;
@@ -143,6 +168,7 @@ margin: auto;
     margin-left: 100px;
 }
 .ready{
+    font-family: 'Poppins', sans-serif;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -176,7 +202,19 @@ align-self: center; */
     font-family: 'Poppins', sans-serif;
     color: hsl(192, 100%, 9%)
 }
-
+.readyword{
+    line-height: 32px; 
+    font-size: 26px;
+     color: hsl(192, 100%, 9%); 
+    font-weight: bolder;
+     margin-top:auto;
+}
+.ready button{
+     font-size: 18px; font-weight: 900; box-shadow: 0px 5px 5px 0px rgba(158,152,152,0.51);
+        -webkit-box-shadow: 0px 5px 5px 0px rgba(158,152,152,0.51);
+        -moz-box-shadow: 0px 5px 5px 0px rgba(158,152,152,0.51); margin: 30px 0px; color: white; background-color: hsl(322, 100%, 66%); border: 0px; width: 350px; height: 65px;
+         border-radius: 50px;
+}
 footer{
     font-family: 'Open Sans', sans-serif;
     background-color:hsl(192, 100%, 9%) ;
@@ -253,9 +291,79 @@ justify-content: space-evenly;
 .insta{
     color:  hsl(208, 11%, 55%);
 }
+.footerlogo{
+    display: none;
+}
 
 @media screen and (max-width:576px) {
-  .grow,.flow,.your{
+ header{
+    background-image: url(images/bg-hero-mobile.svg);
+    padding: 10px;
+    align-items: flex-start;
+
+
+}
+ .mock{
+    display: none;
+ }
+ .headerR{
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: start;
+    height: 50px;
+    width: 100px;
+    margin: 0;
+z-index: 9;
+position: absolute;
+top: 20px;
+left: 270px;
+
+ }
+ .headerR button{
+    height: 25px;
+ }
+ .build{
+width:350px;
+padding: auto;
+text-align: center;
+ }
+ .logo{
+    height: 18px;
+    width: 100px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+ }
+ .build h3{
+    line-height: 40px; 
+    font-size: 30px; 
+    color: hsl(192, 100%, 9%);
+     font-weight: bolder;
+      margin:25px 0px ;
+      width: 400;
+}
+.buildh{
+    margin: 0;
+   
+}
+.buildh button{
+    margin: 0 70px;
+    margin-bottom: 10px;
+}
+.build p{
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(192, 100%, 9%); 
+    font-size: 18px;
+    line-height: 30px;
+    width: 340px;
+    margin-bottom: 25px;
+}
+.build br{
+    display: none;
+}
+ 
+ 
+ 
+    .grow,.flow,.your{
     flex-direction: column-reverse;
     height: 450px;
     padding: unset;
@@ -320,11 +428,21 @@ footer{
     color: white;
     height: 1000px;
     flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 140px;
    
+}
+
+.footerlogo{
+    display: unset;
+}
+.footlogo{
+    display: none;
 }
 .words{
     flex-direction: column;
     justify-content: unset;
+    padding: 0;
 
 }
 
@@ -337,13 +455,93 @@ footer{
 .lorem{
     margin-top: 80px;
     gap: 30px;
+    font-size: 8px;
 }
+
+
+.locate div{
+    color: white;
+    margin-bottom: 40px;
+}
+.words a{
+    color: white;
+    font-size: 25px;
+    margin: 5px;
+}
+.brand{
+    display: flex;
+    justify-content: unset;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.brand img{
+    border: 1.5px solid hsl(208, 11%, 55%);
+    padding: 5px;
+   width:40px;
+   height: 40px;
+  border-radius: 20px;
+}
+
 .down{
-    line-height: 40px;
+    line-height: 60px;
     font-size: 20px;
 }
 .locate{
     width: 300px;
     font-size: 20px;
 }
+.ready{
+    margin: unset;
+    width: 100px;
+}
+.readyword{
+    width: 151px;
+    line-height: 22px; 
+    font-size: 16px; 
+    color: hsl(192, 100%, 9%); 
+    font-weight: bold;
+     margin-top:auto;
+}
+.ready  button{
+   
+     font-size: 12px; 
+     font-weight: 800; 
+     box-shadow: 0px 5px 5px 0px rgba(158,152,152,0.51);
+        -webkit-box-shadow: 0px 5px 5px 0px rgba(158,152,152,0.51);
+        -moz-box-shadow: 0px 5px 5px 0px rgba(158,152,152,0.51);
+         margin: 10px 0px;
+          color: white;
+           background-color: hsl(322, 100%, 66%); 
+           border: 0px;
+            width: 80%;
+             height: 55px;
+         border-radius: 50px;
+}
+.ready{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 350px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: 'Poppins', sans-serif;
+   z-index:9 ;
+   position: absolute;
+   top: 2380px;
+   left: 12px;
+   text-align: center;
+  
+}
+*{
+    box-sizing: border-box;
+    overflow-block: hidden;
+}
+.copyright{
+    margin-left: 30px;
+    color: white;
+}
+
 }
