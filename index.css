@@ -311,8 +311,12 @@ justify-content: space-evenly;
 
 
 }
+.mockm{
+    display: block;
+}
  .mock{
     display: none;
+    transition: 0.5s ease-out;
  }
  .headerR{
     flex-direction: row;
